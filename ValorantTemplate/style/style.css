@@ -1,3 +1,11 @@
+@font-face {font-family: "Druk Wide Bold";
+    src: url("../fonts/DrukFont.eot"); /* IE9*/
+    src: url("../fonts/DrukFont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/DrukFont.woff2") format("woff2"), /* chrome firefox */
+    url("../fonts/DrukFont.woff") format("woff"), /* chrome firefox */
+    url("../fonts/DrukFont.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("../fonts/DrukFont.svg#Druk Wide Bold") format("svg"); /* iOS 4.1- */
+}
 .topBar{
     background: #1F2326;
     width: 100%;
