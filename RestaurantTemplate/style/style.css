@@ -1,0 +1,521 @@
+body
+{
+    margin: 0;
+}
+.welcomeBlock
+{
+    background: url(../pictures/header-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open sans', sans-serif;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.firstTopBar 
+{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 35px;
+    width: max-content;
+    text-transform: uppercase;
+    height: max-content;
+    border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
+}
+.secTopBar
+{
+    display: flex;
+    margin-left: 35px;
+    margin-right: 80px;
+    width: max-content;
+    text-transform: uppercase;
+    height: max-content;
+    border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
+}
+.topBarBut
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: Bold;
+    font-size: 12px;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.home
+{
+    position: relative;
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    height: calc(100vh - 175px);
+}
+.welcomeInf
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeTable
+{
+    color: white;
+    width: max-content;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    transform: rotate(-90deg) translate(-50%, 0);
+    transform-origin: left;
+    top: 50%;
+}
+.institution
+{
+    margin-top: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+.institutionName
+{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Monoton', cursive;
+    font-size: 86px;
+}
+.decorateBorder
+{
+    background-color: #E8C300;
+    width: 60px;
+    height: 5px;
+    border-radius: 50px;
+}
+.welcomeButton
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.wButtonColor
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #E8C300;
+    border: none;
+    border-radius: 5px;
+    padding: 24px 77px;
+    text-transform: uppercase;
+}
+.wButtonNonColor
+{
+    background-color: rgba(255, 255, 0, 0);
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    padding: 24px 87px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.socialIcons
+{
+    position: absolute;
+    right: 0;
+    transform: translateY(-110%);
+}
+.wIcon
+{
+    margin-bottom: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 20px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockEven
+{
+    font-family: 'Open sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 75px 40px 100px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infEven
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleEven
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    height: 56px;
+}
+.textEven
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    height: 180px;
+    font-size: 18px;
+}
+strong
+{
+    font-weight: bolder;
+}
+.imgEven
+{
+    position: relative;
+}
+.square
+{
+    position: absolute;
+    border: solid 20px #E8C300;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    right: -75px;
+    top: 160px;
+}
+.block
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open sans', sans-serif;
+    padding: 0 40px 0 20px;
+}
+.team
+{
+    background: url(../pictures/team-bg.svg) no-repeat;
+    background-size: cover;
+}
+.pseudo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    margin: 0 0 100px 0;
+}
+.inf
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titleBlock
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    height: 56px;
+    color: white;
+}
+.text
+{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    height: 180px;
+    font-size: 18px;
+}
+.Img
+{
+    position: relative;
+}
+.squareEven
+{
+    position: absolute;
+    border: solid 20px #E8C300;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    left: -75px;
+    top: 160px;
+}
+.bookTable
+{
+    flex-wrap: wrap;
+    margin: 0;
+
+    padding: 100px 40px 0 20px;
+}
+.fields
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 564px;
+    height: 200px;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.inputStyle
+{
+    font-family: 'Open Sans';
+    color: rgba(51, 51, 51, 0.5);
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+.bookButton
+{
+    width: 564px;
+    margin-top: 10px;
+    height: 60px;
+}
+.timeTableBT
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    height: 100px;
+    width: 100%;
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 12px;
+}
+.specialties
+{
+    background: url(../pictures/spec-bg.png) no-repeat;
+    background-size: cover;
+}
+.gallery
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#glr1
+{
+
+}
+#glr2
+{
+    
+}
+.circle
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    margin: 12.5px;
+}
+.activeCircle
+{
+    background-color: rgb(255, 255, 255);
+}
+.menu
+{
+    width: 100%;
+}
+.menuText
+{
+    height: 76px;
+}
+.menuButton
+{
+    background-color: rgba(255, 255, 0, 0);
+    border: none;
+    border-right: solid 1px rgba(51, 51, 51, 0.2);
+    outline: none;
+    text-transform: uppercase;
+    width: 120px;
+    height: 50px;
+    
+}
+.menuButton:nth-last-child(1)
+{
+    border: none;
+}
+.menuButton:hover
+{
+    cursor: pointer;
+}
+.menuCategory
+{
+    margin: 50px 0 50px 0;
+}
+.menuPizza
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.dish
+{
+    display: flex;
+    width: 340px;
+    height: 66px;
+    flex-wrap: wrap;
+}
+.dishName
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #333333;
+}
+.dishDescription
+{
+    font-size: medium;
+    color: rgba(51, 51, 51, 0.5);
+    transform: translateY(-40%);
+}
+.privateEnents
+{
+    background: url(../pictures/privEvents-bg.png) no-repeat;
+    background-size: cover;
+}
+.prEvImg
+{
+    margin: 0;
+}
+.imgDescription
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 255);
+    width: 455px;
+    height: 80px;
+    transform: rotate(90deg);
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    top: 248px;
+    right: -150px;
+}
+.ImgDisEven
+{
+    border-radius: 5px 5px 0 0;
+    right: 247px;
+    background-color: green;
+    transform: rotate(-90deg);
+}
+.timeTablePE
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.phone
+{
+    color: rgba(255, 255, 255, 0.822);    
+}
+.contactImages
+{
+    display: flex;
+}
+.contImg
+{
+    width: 25%;
+}
+.contactInf
+{
+    font-family: 'Open sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 100px 85px 100px 85px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contText
+{
+    height: 76px;
+}
+.formCont
+{
+    margin-top: 50px;
+    width: 100%;
+}
+.fColCont
+{
+    width: 33%;
+    margin-bottom: 10px;
+}
+.secColCont
+{
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+}
+.thColCont
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.sendButton
+{
+    width: 564px;
+    margin-top: 10px;
+    height: 60px;
+    margin-right: 0;
+}
+iframe
+{
+    width: 100%;
+    height: 475px;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    height: 100px;
+}
