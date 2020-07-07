@@ -1,0 +1,214 @@
+.class1{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+    width: 900px;
+    margin: 0 auto;
+}
+.home{
+    margin-bottom: 105px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 104px;
+}
+.information{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.fullName{
+    font-size: 47px;
+    font-weight: bold;
+    width: min-content;
+    line-height: 55px;
+}
+.personalInf{
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+.language{
+    transform: rotate(-90deg) translate(58%, 145%);
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+.aboutMe{
+    margin-bottom: 91px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 71px;
+    width: 100%;
+}
+.title{
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.resume{
+    font-size: 18px;
+}
+.resTxt{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.skills{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.skillTitle{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+.skillText{
+    text-align: center;
+    margin-top: 69px;
+    font-size: 18px;
+    margin-bottom: 83px;
+}
+.skillsIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.psImg{
+    height: 90px;
+    width: 90px;
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+.aiImg{
+    height: 90px;
+    width: 90px;
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+.aeImg{
+    height: 90px;
+    width: 90px;
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+.fImg{
+    height: 90px;
+    width: 90px;
+}
+.picture{
+    padding-bottom: 24px;
+}
+.skill{
+   height: 210px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.skillName{
+    height: 32px;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    font-weight: bold;
+}
+.starImg{
+    height: 26px;
+    width: 26px;
+    fill: #E5E5E5;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    padding-top: 10px;
+}
+.checked{
+    fill: #070707;
+}
+.portfolio{
+    margin: 0 auto;
+    margin-top: 110px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioTitle{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 47px;
+}
+.portfolioImg{
+    max-width: 900px;
+    max-height: 500px;
+}
+.portfolioTxt{
+    padding-top: 45px;
+    padding-bottom: 100px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactsTitle{
+    padding-top: 114px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+}
+.contactsTxt{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 30px;
+}
+.contactsButton{
+    background-color: #070707;
+    color: white;
+    width: 180px;
+    height: 42px;
+    border-radius: 21px;
+    font-weight: bold;
+}
+.socialMedia{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 85px;
+    padding-bottom: 45px;
+}
+.contactsImg{
+    width: 40px;
+    height: 40px;
+}
+.contactsConclusion{
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+    line-height: 17px;
+}
